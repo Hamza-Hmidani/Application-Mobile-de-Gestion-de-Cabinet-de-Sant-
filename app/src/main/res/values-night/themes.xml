@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Night mode (Force Light/Red for this request). -->
+    <style name="Base.Theme.CabinetMedical" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/primary_red_light</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/light_gray</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_red_dark</item>
+
+        <!-- Background and surface colors -->
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/text_black</item>
+    </style>
+</resources>

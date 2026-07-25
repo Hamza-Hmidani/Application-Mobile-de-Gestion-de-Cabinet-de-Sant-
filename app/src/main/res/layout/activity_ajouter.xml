@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Card wrapper -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="24dp"
+        android:elevation="4dp">
+
+        <!-- Title with red left bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp">
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="24dp"
+                android:background="#C0161A"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajouter un patient"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#C0161A"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOM"
+            android:textSize="11sp"
+            android:textColor="#C0161A"
+            android:textStyle="bold"
+            android:letterSpacing="0.07"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/etNom"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Nom du patient"
+            android:padding="15dp"
+            android:background="#FCEBEB"
+            android:textColor="#1A1A1A"
+            android:textColorHint="#C0161A"
+            android:drawableStart="@drawable/ic_user"
+            android:drawableTint="#C0161A"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRÉNOM"
+            android:textSize="11sp"
+            android:textColor="#C0161A"
+            android:textStyle="bold"
+            android:letterSpacing="0.07"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/etPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Prénom du patient"
+            android:padding="15dp"
+            android:background="#FCEBEB"
+            android:textColor="#1A1A1A"
+            android:textColorHint="#C0161A"
+            android:drawableStart="@drawable/ic_user"
+            android:drawableTint="#C0161A"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:textSize="11sp"
+            android:textColor="#C0161A"
+            android:textStyle="bold"
+            android:letterSpacing="0.07"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="patient@email.com"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:background="#FCEBEB"
+            android:textColor="#1A1A1A"
+            android:textColorHint="#C0161A"
+            android:drawableStart="@drawable/ic_mail"
+            android:drawableTint="#C0161A"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NUMÉRO CARTE"
+            android:textSize="11sp"
+            android:textColor="#C0161A"
+            android:textStyle="bold"
+            android:letterSpacing="0.07"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/etnum_c"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Numéro de carte"
+            android:padding="15dp"
+            android:background="#FCEBEB"
+            android:textColor="#1A1A1A"
+            android:textColorHint="#C0161A"
+            android:drawableStart="@drawable/ic_id_badge"
+            android:drawableTint="#C0161A"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Ajouter"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#C0161A"
+            android:drawableStart="@drawable/ic_user_plus"
+            android:drawableTint="#FFFFFF"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
